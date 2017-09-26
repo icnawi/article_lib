@@ -1,18 +1,22 @@
 {
-  "name": "Nodex",
-  "description": "Simple App built with Node and Express",
-  "main": "app.js",
+  "name": "public",
+  "homepage": "https://github.com/icnawi/article_lib",
   "authors": [
-    "Karakulin"
+    "Eugene Karakulin"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/icnawi",
+  "description": "Simple Article Library based MongoDB",
+  "main": "app.js",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "public\bower_components",
+    "public/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }
