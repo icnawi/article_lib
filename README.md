@@ -1,2 +1,1 @@
-##The Basic App written using MEN Stack
-git sta
+## The basic Twitter-like presonal micro blog
